@@ -1,0 +1,18 @@
+<h1>Demonstration of Style Binding</h1>
+<h1>Marvellous Infosystems</h1>
+<h1 [style.color] = "'red'">Marvellous Infosystems</h1>
+<h1 [style.color] = "'green'">Marvellous Infosystems</h1>
+<h1 [style.color] = "Mycolor">Marvellous Infosystems</h1>
+<h1 [style.color] = "Isset ? 'green' : 'red'">Marvellous Infosystems</h1>
+
+<h1>Demonstration of Class Binding</h1>
+<h1 class = "success">Demonstration of Class Binding</h1>
+<h1 class = "failure">Demonstration of Class Binding</h1>
+<h1 [class] = "Myclass">Demonstration of Class Binding</h1>
+<h1 [class.success] = "Isset">Demonstration of Class Binding</h1>
+
+<h1>Demonstration of Event Binding</h1>
+<button (click) = "MyAction()">Submit</button>
+<h1>{{Data}}</h1>
+
+<button (click) = "MyActionNew($event)">NewButton</button>
